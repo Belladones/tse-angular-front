@@ -1,0 +1,162 @@
+[
+    {
+      "id_livre": 101,
+      "auteur": "John Doe",
+      "description": "Un passionnant roman d'aventure qui transporte les lecteurs dans un monde mystérieux.",
+      "titre": "L'Odyssée mystique",
+      "date_de_sortie": "2022-03-15",
+      "image": "assets/books/odysee_mystique.jpeg"
+    },
+    {
+      "id_livre": 102,
+      "auteur": "Jane Smith",
+      "description": "Un livre inspirant qui explore les possibilités infinies de la créativité humaine.",
+      "titre": "L'Art de l'Innovation",
+      "date_de_sortie": "2021-06-28",
+      "image": "assets/books/Art_de_innovation.jpeg"
+    },
+    {
+      "id_livre": 103,
+      "auteur": "Alex Martin",
+      "description": "Une histoire émouvante d'amour et de perte dans la grande ville.",
+      "titre": "Au-delà des Étoiles",
+      "date_de_sortie": "2023-01-10",
+      "image": "assets/books/audeladesetoiles.jpeg"
+    },
+    {
+      "id_livre": 104,
+      "auteur": "Emily Johnson",
+      "description": "Un thriller captivant qui tient en haleine jusqu'à la dernière page.",
+      "titre": "Le Piège de l'Ombre",
+      "date_de_sortie": "2020-09-05",
+      "image": "assets/books/piege_de_l_ombre.jpeg"
+    },
+    {
+      "id_livre": 105,
+      "auteur": "Michael Brown",
+      "description": "Un guide pratique pour réussir dans le monde des affaires moderne.",
+      "titre": "Stratégies de Succès",
+      "date_de_sortie": "2019-11-22",
+      "image": "assets/books/strategie_succes.jpeg"
+    },
+    {
+      "id_livre": 106,
+      "auteur": "Sophie Anderson",
+      "description": "Un conte enchanteur qui transporte les lecteurs dans un monde magique.",
+      "titre": "La Forêt Enchantée",
+      "date_de_sortie": "2022-07-14",
+      "image": "assets/books/foretenchantee.jpeg"
+    },
+    {
+      "id_livre": 107,
+      "auteur": "David Robinson",
+      "description": "Un livre informatif qui explore les mystères de l'univers et de la science.",
+      "titre": "Les Secrets du Cosmos",
+      "date_de_sortie": "2021-04-03",
+      "image": "assets/books/Les Secrets du Cosmos.jpeg"
+    },
+    {
+      "id_livre": 108,
+      "auteur": "Olivia White",
+      "description": "Un roman poignant qui explore les relations familiales complexes.",
+      "titre": "Les Liens du Sang",
+      "date_de_sortie": "2020-02-18",
+      "image": "assets/books/lesliensdusang.jpeg"
+    },
+    {
+      "id_livre": 109,
+      "auteur": "Chris Miller",
+      "description": "Un guide pratique pour améliorer la productivité et atteindre ses objectifs.",
+      "titre": "Productivité Maximale",
+      "date_de_sortie": "2023-05-30",
+      "image": "assets/books/productivitemaximale.jpeg"
+    },
+    {
+      "id_livre": 110,
+      "auteur": "Eva Turner",
+      "description": "Une histoire romantique qui se déroule dans le pittoresque village de Provence.",
+      "titre": "Amour à la Française",
+      "date_de_sortie": "2021-08-12",
+      "image": "assets/books/amour-francaise.jpeg"
+    },
+    {
+      "id_livre": 111,
+      "auteur": "Daniel Clark",
+      "description": "Un thriller psychologique qui explore les recoins sombres de l'esprit humain.",
+      "titre": "L'Énigme du Silence",
+      "date_de_sortie": "2019-12-07",
+      "image": "assets/books/enigmedusilence.jpeg"
+    },
+    {
+      "id_livre": 112,
+      "auteur": "Sophia Roberts",
+      "description": "Un guide complet pour découvrir les merveilles de la nature dans votre jardin.",
+      "titre": "Jardinage Écologique",
+      "date_de_sortie": "2022-11-19",
+      "image": "assets/books/jardinage.jpeg"
+    },
+    {
+      "id_livre": 113,
+      "auteur": "Ryan Adams",
+      "description": "Une aventure épique dans un monde fantastique peuplé de créatures mythiques.",
+      "titre": "La Quête du Dragon",
+      "date_de_sortie": "2020-04-26",
+      "image": "assets/books/quetedudragon.jpeg"
+    },
+    {
+      "id_livre": 114,
+      "auteur": "Emma Taylor",
+      "description": "Un roman historique qui plonge les lecteurs dans l'atmosphère du XVIIIe siècle.",
+      "titre": "Les Labyrinthes du Passé",
+      "date_de_sortie": "2023-02-08",
+      "image": "assets/books/labyrinthedupassee.jpeg"
+    },
+    {
+      "id_livre": 115,
+      "auteur": "Brian Harris",
+      "description": "Un guide pratique pour développer des compétences en leadership efficaces.",
+      "titre": "Leadership Visionnaire",
+      "date_de_sortie": "2021-01-17",
+      "image": "assets/books/leadershipvisionnaire.jpeg"
+    },
+    {
+      "id_livre": 116,
+      "auteur": "Grace Turner",
+      "description": "Un récit émouvant d'espoir et de résilience dans des moments difficiles.",
+      "titre": "Au-delà de la Tempête",
+      "date_de_sortie": "2020-07-09",
+      "image": "assets/books/audeladelatempete.jpeg"
+    },
+    {
+      "id_livre": 117,
+      "auteur": "Nicholas Walker",
+      "description": "Un thriller politique palpitant qui explore les coulisses du pouvoir.",
+      "titre": "L'Échiquier du Pouvoir",
+      "date_de_sortie": "2022-09-14",
+      "image": "assets/books/echequierdupouvoir.jpeg"
+    },
+    {
+      "id_livre": 118,
+      "auteur": "Lily Anderson",
+      "description": "Une comédie romantique légère qui met en scène des personnages attachants.",
+      "titre": "Coup de Foudre",
+      "date_de_sortie": "2021-03-02",
+      "image": "assets/books/coupdefoudreamanhattan.jpeg"
+    },
+    {
+      "id_livre": 119,
+      "auteur": "Mark Davis",
+      "description": "Un guide essentiel pour maîtriser les compétences de communication en entreprise.",
+      "titre": "Communication",
+      "date_de_sortie": "2019-10-11",
+      "image": "assets/books/communicationimpactante.jpeg"
+    },
+    {
+      "id_livre": 120,
+      "auteur": "Sophie Turner",
+      "description": "Un thriller psychologique qui explore les limites de la réalité.",
+      "titre": "Illusions Mortelles",
+      "date_de_sortie": "2023-04-25",
+      "image": "assets/books/illusionmortelle.jpeg"
+    }
+  ]
