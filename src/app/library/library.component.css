@@ -77,6 +77,11 @@
   right: 10px;
   z-index: 1;
 }
+.book-card:hover .book-author,.book-card:hover .book-title{
+  display: none;
+}
+
+
 
 .back-info{
   position: absolute;
