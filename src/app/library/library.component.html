@@ -1,0 +1,52 @@
+<div class="library">
+  <h1 class="library-title">Coin Lecture</h1>
+
+  <!-- Section de contrôles de recherche et de filtrage -->
+  <div class="alphabet-filter">
+    <span class="filter-letter" *ngFor="let letter of alphabet" (click)="onLetterClick(letter)" [class.selected-letter]="letter === filterLetter">
+      {{ letter }}
+    </span>
+  </div>
+
+
+
+
+  <div class="search-filter-controls">
+    <input
+      type="text"
+      [(ngModel)]="searchInput"
+      (input)="onSearchChange()"
+      placeholder="Rechercher un livre..."
+      class="search-input"
+    >
+
+  </div>
+
+
+  <div *ngIf="filteredBooks.length; else noResultsTemplate" class="books-grid">
+    <div class="book-card" *ngFor="let book of filteredBooks">
+      <div class="card__face card__face--front">
+        <img [src]="book.image" alt="{{ book.titre }}"/>
+        <div class="front-info">
+          <img class="front-info-cover" [src]="book.image" alt="{{ book.titre }}" />
+          <h3 class="book-title">{{ book.titre }}</h3>
+          <p class="book-author">Auteur: {{ book.auteur }}</p>
+        </div>
+      </div>
+      <div class="card__face card__face--back">
+        <img [src]="book.image" alt="{{ book.titre }}"/>
+        <div class="back-info">
+          <img class="back-info-cover" [src]="book.image" alt="{{ book.titre }}"/>
+          <p class="book-release-date">Date de sortie: {{ book.date_de_sortie }}</p>
+          <p class="book-description">Description: <br> {{ book.description }}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <ng-template #noResultsTemplate>
+    <p>Aucun résultat trouvé.</p>
+  </ng-template>
+</div>
