@@ -1,0 +1,55 @@
+[
+  {
+    "id_adherent": 1,
+    "livres_empruntes": [
+      {
+        "id_livre": 101,
+        "date_location": "2022-01-15"
+      },
+      {
+        "id_livre": 105,
+        "date_location": "2022-01-15"
+      }
+    ]
+  },
+  {
+    "id_adherent": 2,
+    "livres_empruntes": [
+      {
+        "id_livre": 101,
+        "date_location": "2020-04-06"
+      }
+    ]
+  },
+  {
+    "id_adherent": 3,
+    "livres_empruntes": [
+      {
+        "id_livre": 102,
+        "date_location": "2022-06-10"
+      }
+    ]
+  },
+  {
+    "id_adherent": 4,
+    "livres_empruntes": [
+      {
+        "id_livre": 103,
+        "date_location": "2023-03-08"
+      }
+    ]
+  },
+  {
+    "id_adherent": 5,
+    "livres_empruntes": [
+      {
+        "id_livre": 105,
+        "date_location": "2021-05-20"
+      }
+    ]
+  },
+  {
+    "id_adherent": 6,
+    "livres_empruntes": []
+  }
+]
