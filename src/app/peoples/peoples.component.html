@@ -1,1 +1,38 @@
-<p>peoples works!</p>
+<div class="people">
+  <h1 class="people-title">Coin Adhérents</h1>
+
+  <!-- Section de contrôles de recherche et de filtrage -->
+  <div class="alphabet-filter">
+    <span class="filter-letter" *ngFor="let letter of alphabet" (click)="onLetterClick(letter)" [class.selected-letter]="letter === filterLetter">
+      {{ letter }}
+    </span>
+  </div>
+
+  <div class="search-filter-controls">
+    <input
+      type="text"
+      [(ngModel)]="searchInput"
+      (input)="onSearchChange()"
+      placeholder="Rechercher un adhérent..."
+      class="search-input"
+    >
+  </div>
+
+  <div *ngIf="filteredPeoples.length; else noResultsTemplate" class="peoples-grid">
+    <div class="people-card" *ngFor="let person of filteredPeoples">
+      <div class="person-image-container">
+        <img class="people-cover" [src]="person.image" alt="{{ person.nom }} cover">
+        <div class="people-info">
+          <h3 class="people-title">{{ person.nom }}</h3>
+          <p class="people-prenom">{{ person.prenom }}</p>
+          <p class="people-id">id : {{ person.id_adherent }}</p>
+          <p class="people-naissance">date naissance : {{ person.date_naissance }}</p>
+          <p class="people-adhesion"> date adhésion : {{ person.date_adhesion }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #noResultsTemplate>
+    <p>Aucun résultat trouvé.</p>
+  </ng-template>
+</div>

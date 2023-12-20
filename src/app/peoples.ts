@@ -1,4 +1,4 @@
-export interface Adherent {
+export interface Peoples {
   id_adherent: number;
   nom: string;
   prenom: string;

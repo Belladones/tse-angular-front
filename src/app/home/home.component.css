@@ -1,0 +1,164 @@
+/* Styles généraux */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de la carte 3D */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    perspective: 1000px;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+    transform-origin: center;
+}
+
+.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background-color: #111827;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles des livres avec animation */
+h1 {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Ajout de cette ligne pour ajuster la marge inférieure */
+}
+
+.pic-ctn.books-container {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 5vh; /* Ajustement de la marge supérieure */
+    margin-bottom: 90px;
+}
+
+.pic-ctn.books-container .book {
+    text-align: center;
+}
+
+.pic-ctn.books-container .book .book-content {
+    position: relative;
+}
+
+.pic-ctn.books-container .book img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 150px); /* Ajustez la moitié de la largeur de l'image */
+    opacity: 0;
+    animation: display 10s infinite;
+}
+
+.pic-ctn.books-container .book .book-title {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 80%; /* Ajustez la position verticale du titre */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: display 10s infinite;
+}
+
+.pic-ctn.books-container .book:nth-child(2) img,
+.pic-ctn.books-container .book:nth-child(2) .book-title {
+    animation-delay: 2s;
+}
+
+.pic-ctn.books-container .book:nth-child(3) img,
+.pic-ctn.books-container .book:nth-child(3) .book-title {
+    animation-delay: 4s;
+}
+
+.pic-ctn.books-container .book:nth-child(4) img,
+.pic-ctn.books-container .book:nth-child(4) .book-title {
+    animation-delay: 6s;
+}
+
+.pic-ctn.books-container .book:nth-child(5) img,
+.pic-ctn.books-container .book:nth-child(5) .book-title {
+    animation-delay: 8s;
+}
+
+.home-text {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #000; /* Fond noir */
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px; /* Ajout de padding pour l'espace intérieur du footer */
+}
+
+/* Animation des images et des titres */
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
