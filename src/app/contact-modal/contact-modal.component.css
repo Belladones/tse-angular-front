@@ -1,80 +1,90 @@
-/* Style de base pour le modal */
 .modal {
-  display: block; /* ou 'none' pour le cacher initialement */
+  display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4); /* Fond semi-transparent */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Style du dialogue du modal */
 .modal-dialog {
-  margin: 15% auto; /* Centrer le modal verticalement */
-  padding: 20px;
-  width: 50%; /* Largeur du modal */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: auto;
+  margin: 10vh auto;
+  pointer-events: none;
 }
 
-/* Style du contenu du modal */
 .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  border-radius: 5px; /* Bordures arrondies */
+  position: relative;
+  background-color: #fff;
+  pointer-events: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin: 15% auto;
+  width: 80%;
 }
 
-/* Style de l'en-tête du modal */
-.modal-header {
+.modal-header,
+.modal-footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
-/* Style du titre du modal */
 .modal-title {
   margin: 0;
-  font-size: 20px;
+  line-height: 1.5;
 }
 
-/* Style du bouton de fermeture */
 .close {
-  border: none;
+  font-size: 1.5rem;
   background: none;
-  font-size: 20px;
-}
-
-/* Style du corps du modal */
-.modal-body {
-  padding: 10px 0;
-}
-
-/* Style du pied de page du modal */
-.modal-footer {
-  padding-top: 10px;
-  border-top: 1px solid #e5e5e5;
-  text-align: right;
-}
-
-/* Style des boutons */
-.btn {
-  padding: 5px 15px;
-  margin: 5px;
   border: none;
-  border-radius: 3px;
+  color: #000;
   cursor: pointer;
 }
 
-/* Couleur spécifique pour le bouton 'Fermer' */
-.btn-secondary {
-  background-color: #6c757d;
+.modal-body {
+  position: relative;
+  padding: 1rem;
+}
+
+.btn-close,
+.btn-save {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-close {
+  background-color: #f8f9fa;
+}
+
+.btn-save {
+  background-color: #6f42c1;
   color: white;
 }
 
-/* Ajoutez d'autres styles selon vos besoins */
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog {
+    margin: 20px;
+  }
+  .modal-content {
+    width: auto;
+  }
+}
+
+/* Additional styles */
+button:focus {
+  outline: none;
+}
