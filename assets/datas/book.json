@@ -1,0 +1,162 @@
+[
+  {
+    "book_id": 101,
+    "auteur": "John Doe",
+    "description": "A thrilling adventure novel that transports readers into a mysterious world.",
+    "titre": "The Mystic Odyssey",
+    "date_de_sortie": "2022-03-15",
+    "image": "assets/books/odysee_mystique.jpeg"
+  },
+  {
+    "book_id": 102,
+    "auteur": "Jane Smith",
+    "description": "An inspiring book that explores the infinite possibilities of human creativity.",
+    "titre": "The Art of Innovation",
+    "date_de_sortie": "2021-06-28",
+    "image": "assets/books/Art_de_innovation.jpeg"
+  },
+  {
+    "book_id": 103,
+    "auteur": "Alex Martin",
+    "description": "A moving story of love and loss in the big city.",
+    "titre": "Beyond the Stars",
+    "date_de_sortie": "2023-01-10",
+    "image": "assets/books/audeladesetoiles.jpeg"
+  },
+  {
+    "book_id": 104,
+    "auteur": "Emily Johnson",
+    "description": "A captivating thriller that keeps you on the edge of your seat until the last page.",
+    "titre": "The Shadow Trap",
+    "date_de_sortie": "2020-09-05",
+    "image": "assets/books/piege_de_l_ombre.jpeg"
+  },
+  {
+    "book_id": 105,
+    "auteur": "Michael Brown",
+    "description": "A practical guide for success in the modern business world.",
+    "titre": "Strategies for Success",
+    "date_de_sortie": "2019-11-22",
+    "image": "assets/books/strategie_succes.jpeg"
+  },
+  {
+    "book_id": 106,
+    "auteur": "Sophie Anderson",
+    "description": "An enchanting tale that transports readers to a magical world.",
+    "titre": "The Enchanted Forest",
+    "date_de_sortie": "2022-07-14",
+    "image": "assets/books/foretenchantee.jpeg"
+  },
+  {
+    "book_id": 107,
+    "auteur": "David Robinson",
+    "description": "An informative book that explores the mysteries of the universe and science.",
+    "titre": "The Secrets of the Cosmos",
+    "date_de_sortie": "2021-04-03",
+    "image": "assets/books/Les Secrets du Cosmos.jpeg"
+  },
+  {
+    "book_id": 108,
+    "auteur": "Olivia White",
+    "description": "A poignant novel that explores complex family relationships.",
+    "titre": "Blood Ties",
+    "date_de_sortie": "2020-02-18",
+    "image": "assets/books/lesliensdusang.jpeg"
+  },
+  {
+    "book_id": 109,
+    "auteur": "Chris Miller",
+    "description": "A practical guide to improving productivity and achieving goals.",
+    "titre": "Maximum Productivity",
+    "date_de_sortie": "2023-05-30",
+    "image": "assets/books/productivitemaximale.jpeg"
+  },
+  {
+    "book_id": 110,
+    "auteur": "Eva Turner",
+    "description": "A romantic story set in the picturesque village of Provence.",
+    "titre": "Love à la Française",
+    "date_de_sortie": "2021-08-12",
+    "image": "assets/books/amour-francaise.jpeg"
+  },
+  {
+    "book_id": 111,
+    "auteur": "Daniel Clark",
+    "description": "A psychological thriller that explores the dark corners of the human mind.",
+    "titre": "The Enigma of Silence",
+    "date_de_sortie": "2019-12-07",
+    "image": "assets/books/enigmedusilence.jpeg"
+  },
+  {
+    "book_id": 112,
+    "auteur": "Sophia Roberts",
+    "description": "A complete guide to discovering the wonders of nature in your garden.",
+    "titre": "Ecological Gardening",
+    "date_de_sortie": "2022-11-19",
+    "image": "assets/books/jardinage.jpeg"
+  },
+  {
+    "book_id": 113,
+    "auteur": "Ryan Adams",
+    "description": "An epic adventure in a fantasy world filled with mythical creatures.",
+    "titre": "The Dragon Quest",
+    "date_de_sortie": "2020-04-26",
+    "image": "assets/books/quetedudragon.jpeg"
+  },
+  {
+    "book_id": 114,
+    "auteur": "Emma Taylor",
+    "description": "A historical novel that immerses readers in the atmosphere of the 18th century.",
+    "titre": "The Labyrinths of the Past",
+    "date_de_sortie": "2023-02-08",
+    "image": "assets/books/labyrinthedupassee.jpeg"
+  },
+  {
+    "book_id": 115,
+    "auteur": "Brian Harris",
+    "description": "A practical guide to developing effective leadership skills.",
+    "titre": "Visionary Leadership",
+    "date_de_sortie": "2021-01-17",
+    "image": "assets/books/leadershipvisionnaire.jpeg"
+  },
+  {
+    "book_id": 116,
+    "auteur": "Grace Turner",
+    "description": "A moving story of hope and resilience in difficult times.",
+    "titre": "Beyond the Storm",
+    "date_de_sortie": "2020-07-09",
+    "image": "assets/books/audeladelatempete.jpeg"
+  },
+  {
+    "book_id": 117,
+    "auteur": "Nicholas Walker",
+    "description": "A thrilling political thriller that explores the behind-the-scenes of power.",
+    "titre": "The Chessboard of Power",
+    "date_de_sortie": "2022-09-14",
+    "image": "assets/books/echequierdupouvoir.jpeg"
+  },
+  {
+    "book_id": 118,
+    "auteur": "Lily Anderson",
+    "description": "A light-hearted romantic comedy featuring endearing characters.",
+    "titre": "Love at First Sight",
+    "date_de_sortie": "2021-03-02",
+    "image": "assets/books/coupdefoudreamanhattan.jpeg"
+  },
+  {
+    "book_id": 119,
+    "auteur": "Mark Davis",
+    "description": "An essential guide to mastering communication skills in business.",
+    "titre": "Impactful Communication",
+    "date_de_sortie": "2019-10-11",
+    "image": "assets/books/communicationimpactante.jpeg"
+  },
+  {
+    "book_id": 120,
+    "auteur": "Sophie Turner",
+    "description": "A psychological thriller that explores the limits of reality.",
+    "titre": "Deadly Illusions",
+    "date_de_sortie": "2023-04-25",
+    "image": "assets/books/illusionmortelle.jpeg"
+  }
+]
