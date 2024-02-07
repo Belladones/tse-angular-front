@@ -1,5 +1,5 @@
 <div class="people">
-  <h1 class="people-title">Coin Adhérents</h1>
+  <h1 class="people-title1">Users</h1>
 
   <!-- Section de contrôles de recherche et de filtrage -->
   <div class="alphabet-filter">
@@ -13,7 +13,7 @@
       type="text"
       [(ngModel)]="searchInput"
       (input)="onSearchChange()"
-      placeholder="Rechercher un adhérent..."
+      placeholder="Search..."
       class="search-input"
     >
   </div>
@@ -26,8 +26,8 @@
           <h3 class="people-title">{{ person.nom }}</h3>
           <p class="people-prenom">{{ person.prenom }}</p>
           <p class="people-id">id : {{ person.id_adherent }}</p>
-          <p class="people-naissance">date naissance : {{ person.date_naissance }}</p>
-          <p class="people-adhesion"> date adhésion : {{ person.date_adhesion }}</p>
+          <p class="people-naissance">Birth : {{ person.date_naissance }}</p>
+          <p class="people-adhesion"> Start date  : {{ person.date_adhesion }}</p>
         </div>
       </div>
     </div>

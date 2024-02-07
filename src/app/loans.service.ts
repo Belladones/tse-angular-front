@@ -1,17 +1,18 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {Loans} from "./loans";
+import {Loan} from "./loans";
+import {Book} from "./book";
 
 @Injectable({
   providedIn: 'root'
 })
 export class LoansService {
-  apiUrl = 'assets/locations.json';
-
+  apiUrl = '/assets/datas/loans.json';
   constructor(private http: HttpClient) { }
 
-  getCar(): Observable<Loans> {
-    return this.http.get<Loans>(this.apiUrl);
+  getLoan(): Observable<Loan[]> {
+    return this.http.get<Loan[]>(this.apiUrl);
   }
+
 }

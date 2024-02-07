@@ -8,11 +8,11 @@ import {Book} from "./book";
   providedIn: 'root'
 })
 export class BooksService {
-  apiUrl = 'assets/books.json';
+  apiUrl = '/assets/datas/book.json';
 
   constructor(private http: HttpClient) { }
 
-  getBooks(): Observable<Book[]> { // Notez le changement ici pour renvoyer un Observable de tableau de Book
+  getBooks(): Observable<Book[]> {
     return this.http.get<Book[]>(this.apiUrl);
   }
 

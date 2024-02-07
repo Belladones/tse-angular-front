@@ -1,1 +1,40 @@
-<p>loans works!</p>
+<h1 class="title">Loans</h1>
+
+<div class="search-filter-controls">
+  <input
+    type="text"
+    placeholder="To research...title...users...id_book..."
+    class="search-input"
+    [(ngModel)]="searchTerm"
+    (ngModelChange)="filterLoans()"
+  >
+
+
+</div>
+
+<div class="content">
+
+
+  <div class="books-grid">
+    <div class="book-card" *ngFor="let loan of loans">
+      <img src="{{loan.book?.image }}" alt="">
+
+      <div class="book-info">
+        <div>Book ID: {{ loan.book?.book_id }}</div>
+        <div>Title : {{ loan.book?.titre }}</div>
+        <div>Author : {{ loan.book?.auteur }}</div>
+        <br>
+        <div>User ID: {{ loan.user?.id_adherent }}</div>
+        <div>User Name: {{ loan.user?.nom }} {{ loan.user?.prenom }}</div>
+        <div>Loan Start Date: {{ loan.dateEmprunt }}</div>
+        <div>Loan Return Date: {{ loan.dateRetour }}</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<ng-template #noResultsTemplate>
+  <p>Aucun résultat trouvé.</p>
+</ng-template>

@@ -1,0 +1,134 @@
+[
+  {
+    "id_adherent": 1,
+    "nom": "Bangalter",
+    "prenom": "Thomas",
+    "date_naissance": "1975-01-03",
+    "date_adhesion": "2022-01-15",
+    "id_livre_loue": 104,
+    "image": "assets/peoples/bangalter.jpg",
+    "email": "thomas.bangalter@example.com",
+    "password": "ThomasBangalter"
+  },
+  {
+    "id_adherent": 2,
+    "nom": "Bedia",
+    "prenom": "Ramzy",
+    "date_naissance": "1972-03-10",
+    "date_adhesion": "2021-05-20",
+    "id_livre_loue": 105,
+    "image": "assets/peoples/bedia.jpg",
+    "email": "ramzy.bedia@example.com",
+    "password": "RamzyBedia"
+  },
+  {
+    "id_adherent": 3,
+    "nom": "Cohen",
+    "prenom": "Jonathan",
+    "date_naissance": "1980-06-16",
+    "date_adhesion": "2023-03-08",
+    "id_livre_loue": 101,
+    "image": "assets/peoples/cohen.jpg",
+    "email": "jonathan.cohen@example.com",
+    "password": "JonathanCohen"
+  },
+  {
+    "id_adherent": 4,
+    "nom": "Curry",
+    "prenom": "Stephen",
+    "date_naissance": "1988-03-14",
+    "date_adhesion": "2020-09-12",
+    "id_livre_loue": 110,
+    "image": "assets/peoples/curry.jpg",
+    "email": "stephen.curry@example.com",
+    "password": "StephenCurry"
+  },
+  {
+    "id_adherent": 5,
+    "nom": "Judor",
+    "prenom": "Eric",
+    "date_naissance": "1968-07-25",
+    "date_adhesion": "2022-11-28",
+    "id_livre_loue": 111,
+    "image": "assets/peoples/judor.jpg",
+    "email": "eric.judor@example.com",
+    "password": "EricJudor"
+  },
+  {
+    "id_adherent": 6,
+    "nom": "Lebron",
+    "prenom": "James",
+    "date_naissance": "1984-12-30",
+    "date_adhesion": "2021-07-14",
+    "id_livre_loue": 109,
+    "image": "assets/peoples/lebron.jpg",
+    "email": "lebron.james@example.com",
+    "password": "LebronJames"
+  },
+  {
+    "id_adherent": 7,
+    "nom": "Obama",
+    "prenom": "Barack",
+    "date_naissance": "1961-08-04",
+    "date_adhesion": "2023-02-03",
+    "id_livre_loue": 112,
+    "image": "assets/peoples/obama.jpg",
+    "email": "obama.barack@example.com",
+    "password": "ObamaBarack"
+  },
+  {
+    "id_adherent": 8,
+    "nom": "Un",
+    "prenom": "Kim Jong",
+    "date_naissance": "1984-01-08",
+    "date_adhesion": "2020-04-06",
+    "id_livre_loue": 117,
+    "image": "assets/peoples/un.jpg",
+    "email": "kimjong.un@example.com",
+    "password": "KimJongUn"
+  },
+  {
+    "id_adherent": 9,
+    "nom": "Sy",
+    "prenom": "Omar",
+    "date_naissance": "1978-01-20",
+    "date_adhesion": "2022-06-10",
+    "id_livre_loue": 119,
+    "image": "assets/peoples/sy.jpg",
+    "email": "omar.sy@example.com",
+    "password": "OmarSy"
+  },
+  {
+    "id_adherent": 10,
+    "nom": "Poutine",
+    "prenom": "Vladimir",
+    "date_naissance": "1952-10-17",
+    "date_adhesion": "2021-12-22",
+    "id_livre_loue": 117,
+    "image": "assets/peoples/poutine.jpg",
+    "email": "vladimir.poutine@example.com",
+    "password": "VladimirPoutine"
+  },
+  {
+    "id_adherent": 11,
+    "nom": "Swift",
+    "prenom": "Taylor",
+    "date_naissance": "1989-12-13",
+    "date_adhesion": "2020-02-02",
+    "id_livre_loue": 118,
+    "image": "assets/peoples/swift.jpg",
+    "email": "taylor.swift@example.com",
+    "password": "TaylorSwift"
+  },
+  {
+    "id_adherent": 12,
+    "nom": "Furler",
+    "prenom": "Sia",
+    "date_naissance": "1975-12-18",
+    "date_adhesion": "2023-01-30",
+    "id_livre_loue": 114,
+    "image": "assets/peoples/sia.jpg",
+    "email": "sia.furler@example.com",
+    "password": "SiaFurler"
+  }
+]

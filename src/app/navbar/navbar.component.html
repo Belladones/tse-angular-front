@@ -1,6 +1,16 @@
 <div class="custom-navbar">
   <div class="brand-logo">
-    <img src="assets/logo.svg" width="80px">
+    <img src="assets/images/logo_luna.svg" width="200px">
+
+    <!-- home.component.html -->
+    <div>
+
+
+
+
+
+    </div>
+
 
     <button class="menu"
             onClick="this.classList.toggle('opened'); this.setAttribute('aria-expanded', this.classList.contains('opened')); document.getElementById('navMenu').classList.toggle('hidden');"
@@ -15,10 +25,16 @@
     <div class="navbar-links">
       <ul>
         <li><a routerLink="/" >Home</a></li>
-        <li><a routerLink="/library" >Library</a></li>
+        <li><a routerLink="/library" >Catalog</a></li>
         <li><a routerLink="/loans" >Loans</a></li>
-        <li><a routerLink="/peoples" >Peoples</a></li>
+        <li><a routerLink="/peoples" >Users</a></li>
         <li><a routerLink="/form">Contact</a></li>
+        <li *ngIf="currentUser">
+          <button class="button" (click)="logout()">Déconnexion</button>
+        </li>
+        <li *ngIf="!currentUser">
+          <button class="button"  (click)="signin()">Sign in</button>
+        </li>
       </ul>
     </div>
   </div>
@@ -29,6 +45,12 @@
       <li><a routerLink="/loans" >Loans</a></li>
       <li><a routerLink="/peoples" >Peoples</a></li>
       <li><a routerLink="/form">Contact</a></li>
+      <p *ngIf="currentUser">
+        <button class="button"  (click)="logout()">Déconnexion</button>
+      </p>
+      <p *ngIf="!currentUser">
+        <button class="button"  (click)="signin()">Sign in</button>
+      </p>
     </ul>
   </nav>
 

@@ -8,7 +8,7 @@ import { Peoples } from './peoples';
   providedIn: 'root'
 })
 export class PeoplesService {
-  apiUrl = 'assets/adherents.json';
+  apiUrl = 'assets/datas/users.json';
 
   constructor(private http: HttpClient) { }
 

@@ -1,12 +1,8 @@
 <div class="library">
-  <h1 class="library-title">Coin Lecture</h1>
+  <h1 class="library-title">Catalog</h1>
 
   <!-- Section de contrôles de recherche et de filtrage -->
-  <div class="alphabet-filter">
-    <span class="filter-letter" *ngFor="let letter of alphabet" (click)="onLetterClick(letter)" [class.selected-letter]="letter === filterLetter">
-      {{ letter }}
-    </span>
-  </div>
+
 
 
 
@@ -16,12 +12,17 @@
       type="text"
       [(ngModel)]="searchInput"
       (input)="onSearchChange()"
-      placeholder="Rechercher un livre..."
+      placeholder="To research..."
       class="search-input"
     >
 
   </div>
 
+  <div class="alphabet-filter">
+    <span class="filter-letter" *ngFor="let letter of alphabet" (click)="onLetterClick(letter)" [class.selected-letter]="letter === filterLetter">
+      {{ letter }}
+    </span>
+  </div>
 
   <div *ngIf="filteredBooks.length; else noResultsTemplate" class="books-grid">
     <div class="book-card" *ngFor="let book of filteredBooks">

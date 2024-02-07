@@ -1,29 +1,40 @@
-<div class="home-container">
-    <div class="card" (click)="flipCard()">
-        <div class="card-inner">
-            <div class="card-front">
-                <!-- Contenu du recto (peut contenir le logo ou d'autres éléments) -->
-                <img src="assets/logo.svg" alt="Logo">
-            </div>
-            <div class="card-back">
-                <!-- Contenu du verso -->
-                <p>Wow un Easter Egg !!</p>
-                <p>Cette fonctionnalité vaut au moins un 18/20</p>
-                <p>Non ?</p>
-            </div>
+<div class="content">
+    <div class="hero">
+        <div class="Photo_card">
+            <h1> Discover a whole new way to enjoy reading with Luna Loans </h1>
+            <p>
+                Our platform allows you to browse a vast collection of books of all genres and borrow them at your convenience, all from the comfort of your home.
+                Immerse yourself in captivating stories, learn about new subjects, or explore unfamiliar worlds without ever leaving your couch.
+            </p>
+
+            <a class="button" routerLink="/library">See the catalog</a>
+        </div>
+
+        <div class="photo_home">
+            <img class="image_droite" src="assets/images/regarde_droite.svg" alt="img_droite">
+            <img class="image_gauche" src="assets/images/regarde_gauche.svg" alt="img_gauche">
         </div>
     </div>
-</div>
 
-<h1>Top des livres disponibles en ce moment en magasin</h1>
 
-<div class="pic-ctn books-container">
-    <div class="book" *ngFor="let book of books.slice(0, 6)">
-        <img *ngIf="book?.image" [src]="book.image" alt="{{ book.titre }}" class="pic">
-        <p class="book-title">{{ book.titre }}</p>
-    </div>
-</div>
-<div class="home-text">
-    <p>by Thibault Bravar & Hugo Mirofle</p>
-    <p>© All rights reserved</p>
+
+    <mat-grid-list cols="12" rowHeight="100px" [gutterSize]="'10px'">
+      <mat-grid-tile *ngFor="let tile of tiles"
+                     [colspan]="tile.cols"
+                     [rowspan]="tile.rows"
+                     [ngClass]="tile.class"
+                     [style.background]="tile.color"
+                     [style.color]="tile.color === '#2D133A' ? 'white' : 'black'">
+        <div *ngIf="tile.img; else noImage" class="container">
+          <img [src]="tile.img" alt="" style="width: 80%;">
+        </div>
+        <ng-template #noImage>
+          <div class="container">
+            <h1>{{tile.h1}}</h1>
+            <p>{{tile.text}}</p>
+          </div>
+        </ng-template>
+
+      </mat-grid-tile>
+    </mat-grid-list>
 </div>

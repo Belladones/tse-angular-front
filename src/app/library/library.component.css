@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Esphimere';
+  src: url('/assets/fonts/Esphimere.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sixty Niners';
+  src: url('/assets/fonts/behance-64015bb3c88f5.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 .library {
   max-width: 1200px;
   margin: auto;
@@ -9,7 +21,11 @@
 }
 
 .library-title {
+  margin-top: 20px;
   text-align: center;
+  font-family: "Sixty Niners", serif;
+  font-size: 40px;
+  color: #F3E0EC;
   margin-bottom: 30px;
 }
 
@@ -24,7 +40,7 @@
   position: relative;
   width: 100%;
   height: 450px;
-  color: white;
+  color: #F3E0EC;
   cursor: pointer;
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
@@ -51,7 +67,7 @@
 
 .front-info{
   position: absolute;
-  background-color: #182138;
+  background-color: #000000;
   height: 40%;
   width : 100%;
   overflow: hidden;
@@ -85,7 +101,7 @@
 
 .back-info{
   position: absolute;
-  background-color: #182138;
+  background-color: #000000;
   height: 40%;
   width : 100%;
   overflow: hidden;
@@ -136,34 +152,39 @@
 .filter-letter {
   margin: 0 10px;
   cursor: pointer;
-  color: white;
+  color: #F3E0EC;
 }
 
 .selected-letter {
-  color: #ffcb39;
+  color: #D94179;
+}
+
+.search-filter-controls{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .search-input {
   font-size: 16px;
   padding: 10px 20px;
-  border: 1px solid #182138;
-  border-radius: 20px;
+  border: none;
+  border-radius: 48.5px;
+  background: #F3E0EC;
   box-shadow: none;
   outline: none;
-  width: 200px;
-  background-color: #182138;
+  width: 80%;
   margin-bottom: 20px;
 
 }
 
 .search-input:focus {
-  border-color: #2b3a65;
-  box-shadow: 0 0 8px rgba(66, 133, 244, 0.5);
-  color: white;
+  color: Black;
 }
 
+
 p, h1{
-  color: white;
+  color: #F3E0EC;
 
 }
 

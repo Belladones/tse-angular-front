@@ -1,0 +1,122 @@
+[
+  {
+    "id_book": 101,
+    "id_user": 2,
+    "dateEmprunt": "2024-01-10",
+    "dateRetour": "2024-02-10"
+  },
+  {
+    "id_book": 103,
+    "id_user": 1,
+    "dateEmprunt": "2024-01-15",
+    "dateRetour": "2024-02-15"
+  },
+  {
+    "id_book": 104,
+    "id_user": 1,
+    "dateEmprunt": "2023-12-20",
+    "dateRetour": "2024-01-20"
+  },
+  {
+    "id_book": 105,
+    "id_user": 2,
+    "dateEmprunt": "2023-11-25",
+    "dateRetour": "2023-12-25"
+  },
+  {
+    "id_book": 109,
+    "id_user": 6,
+    "dateEmprunt": "2024-01-05",
+    "dateRetour": "2024-02-05"
+  },
+  {
+    "id_book": 110,
+    "id_user": 4,
+    "dateEmprunt": "2023-12-15",
+    "dateRetour": "2024-01-15"
+  },
+  {
+    "id_book": 111,
+    "id_user": 5,
+    "dateEmprunt": "2024-01-22",
+    "dateRetour": "2024-02-22"
+  },
+  {
+    "id_book": 112,
+    "id_user": 7,
+    "dateEmprunt": "2024-01-12",
+    "dateRetour": "2024-02-12"
+  },
+  {
+    "id_book": 117,
+    "id_user": 8,
+    "dateEmprunt": "2024-01-08",
+    "dateRetour": "2024-02-08"
+  },
+  {
+    "id_book": 117,
+    "id_user": 10,
+    "dateEmprunt": "2023-12-01",
+    "dateRetour": "2024-01-01"
+  },
+  {
+    "id_book": 118,
+    "id_user": 11,
+    "dateEmprunt": "2024-01-20",
+    "dateRetour": "2024-02-20"
+  },
+  {
+    "id_book": 119,
+    "id_user": 9,
+    "dateEmprunt": "2023-11-20",
+    "dateRetour": "2023-12-20"
+  },
+  {
+    "id_book": 114,
+    "id_user": 12,
+    "dateEmprunt": "2024-01-25",
+    "dateRetour": "2024-02-25"
+  },
+  {
+    "id_book": 103,
+    "id_user": 1,
+    "dateEmprunt": "2024-01-15",
+    "dateRetour": "2024-02-15"
+  },
+  {
+    "id_book": 104,
+    "id_user": 1,
+    "dateEmprunt": "2024-01-05",
+    "dateRetour": "2024-02-05"
+  },
+  {
+    "id_book": 105,
+    "id_user": 2,
+    "dateEmprunt": "2024-01-20",
+    "dateRetour": "2024-02-20"
+  },
+  {
+    "id_book": 101,
+    "id_user": 3,
+    "dateEmprunt": "2024-01-08",
+    "dateRetour": "2024-02-08"
+  },
+  {
+    "id_book": 110,
+    "id_user": 4,
+    "dateEmprunt": "2024-01-12",
+    "dateRetour": "2024-02-12"
+  },
+  {
+    "id_book": 111,
+    "id_user": 5,
+    "dateEmprunt": "2024-01-22",
+    "dateRetour": "2024-02-22"
+  },
+  {
+    "id_book": 109,
+    "id_user": 6,
+    "dateEmprunt": "2024-01-18",
+    "dateRetour": "2024-02-18"
+  }
+]
