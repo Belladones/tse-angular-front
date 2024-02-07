@@ -7,7 +7,7 @@ import {Loans} from "./loans";
   providedIn: 'root'
 })
 export class LoansService {
-  apiUrl = 'assets/locations.json';
+  apiUrl = 'assets/datas/locations.json';
 
   constructor(private http: HttpClient) { }
 
