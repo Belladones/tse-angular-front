@@ -8,7 +8,7 @@ import {Book} from "./book";
   providedIn: 'root'
 })
 export class BooksService {
-  apiUrl = '/assets/datas/book.json';
+  apiUrl = 'assets/datas/book.json';
 
   constructor(private http: HttpClient) { }
 
