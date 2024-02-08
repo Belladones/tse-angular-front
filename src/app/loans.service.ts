@@ -8,7 +8,7 @@ import {Book} from "./book";
   providedIn: 'root'
 })
 export class LoansService {
-  apiUrl = '/assets/datas/loans.json';
+  apiUrl = 'assets/datas/loans.json';
   constructor(private http: HttpClient) { }
 
   getLoan(): Observable<Loan[]> {
