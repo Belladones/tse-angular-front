@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Esphimere';
-  src: url('/assets/fonts/Esphimere.otf') format('opentype');
+  src: url('assets/fonts/Esphimere.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Sixty Niners';
-  src: url('/assets/fonts/behance-64015bb3c88f5.otf') format('opentype');
+  src: url('assets/fonts/behance-64015bb3c88f5.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
