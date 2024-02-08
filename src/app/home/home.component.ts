@@ -38,7 +38,7 @@ export class HomeComponent {
   constructor(private booksService: BooksService) { }
   tiles: Tile[] = [
     { h1: "Wide Selection", text: "We offer a diverse online library, ranging from current bestsellers to timeless classics. Whatever your literary taste, you're sure to find something that will pique your interest.", cols: 4, rows: 2, color: '#2D133A', class: "bento b1", img: "" },
-    { h1: "", text: '', cols: 3, rows: 2, color: '#2D133A', class: "bento b2", img: "/assets/images/logo_luna.svg"  },
+    { h1: "", text: '', cols: 3, rows: 2, color: '#2D133A', class: "bento b2", img: "assets/images/logo_luna.svg"  },
     { h1: "test", text: 'content', cols: 2, rows: 4, color: '#2D133A', class: "bento b3", img: ""  },
     { h1: "User Friendly", text: "Our user-friendly interface makes searching, selecting, and renting books as easy as can be. You're just a few clicks away from your next literary adventure.", cols: 3, rows: 2, color: '#2D133A' , class: "bento b4", img: "" },
     { h1: "Reviews and Recommendations", text: "Discover member reviews and recommendations to help you find your next read.", cols: 3, rows: 2, color: '#2D133A' , class: "bento b5", img: "" },
